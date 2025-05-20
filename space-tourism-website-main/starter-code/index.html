@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&family=Bellefair&family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="index.css" />
+    <script src="tabs.js"></script>
+    <script src="nav.js"></script>
+
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <body class="home">
+    <header class="flex header">
+      <div>
+        <img src="assets/shared/logo.svg" alt="" class="star-logo" />
+      </div>
+      <button
+        class="mobile-nav"
+        aria-controls="primary-nav"
+        aria-expanded="false"
+      >
+        <!-- <img src="assets/shared/icon-hamburger.svg" alt="" /> -->
+      </button>
+
+      <nav  >
+        <ul id="primary-nav"
+          class="flex underline ff-barlow-cond"
+          visible-nav="false">
+          <li 
+          >
+            <a href="index.html" class="uppercase text-white letter-spacing-2">
+              <span class="no-span"> 00 </span>
+          <!-- class="active" -->
+
+              Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="destination.html"
+              class="uppercase text-white letter-spacing-2"
+            >
+              <span> 01 </span> Destination</a
+            >
+          </li>
+          <li>
+            <a href="crew.html" class="uppercase text-white letter-spacing-2">
+              <span> 02 </span> Crew</a
+            >
+          </li>
+          <li>
+            <a
+              href="technology.html"
+              class="uppercase text-white letter-spacing-2"
+            >
+              <span> 03 </span> Technology</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main" class="flex home-flex container">
+      <div class="home-text">
+        <h4 class="text-light fs-medium1 ff-barlow-cond uppercase">So, you want to travel to
+        </h4>
+        <span class="fs-biggest ff-bellefair text-white uppercase">Space</span>
+        <p class="ff-barlow-cond letter-spacing-3" >
+          Let’s face it; if you want to go to space, you might as well <br>genuinely
+          go to outer space and not hover kind of on the <br> edge of it. Well sit
+          back, and relax because we’ll give you <br>a truly out of this world
+          experience!
+        </p>
+      </div>
+
+      <div class="explore-flex">
+        <a
+          href="destination.html"
+          class="uppercase explore-button ff-bellefair bg-white text-dark"
+          >Explore</a
+        >
+      </div>
+    </main>
+  </body>
+</html>
